@@ -164,25 +164,7 @@
   .project-head h3{font-size:21px; font-weight:700; margin-bottom:6px;}
   .project-head .meta{font-size:12.5px; color:var(--muted); margin-bottom:14px;}
   .project-head p.desc{font-size:14.5px; color:#D6D2EC; max-width:680px; margin:0 0 22px;}
-  .gallery{
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
-    gap:2px;
-    background:var(--line);
-  }
-  .gallery img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    display:block;
-    aspect-ratio:16/9;
-    transition:transform 0.4s ease, filter 0.4s ease;
-    filter:brightness(0.94);
-  }
-  .gallery a{display:block; overflow:hidden;}
-  .gallery a:hover img{transform:scale(1.035); filter:brightness(1.02);}
-  .gallery.single{grid-template-columns:1fr;}
-  .gallery.single img{aspect-ratio:16/8;}
+  .gallery{display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:2px;background:var(--line);}.gallery a{display:flex;align-items:center;justify-content:center;overflow:hidden;background:#EDEAE2;height:300px;}.gallery img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;display:block;transition:transform 0.4s ease;}.gallery a:hover img{transform:scale(1.045);}.gallery.single a{height:380px;}
 
   .project-placeholder{
     padding:0 28px 28px;
